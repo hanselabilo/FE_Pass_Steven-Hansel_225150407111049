@@ -84,7 +84,6 @@ const AllRecipes = () => {
                     )}
                 </div>
             </div>
-            {!loading && <Footer />}
             {showPopup && (
                 <div className="popup-background" onClick={() => setShowPopup(false)}>
                     <div className="popup-content pop-in">

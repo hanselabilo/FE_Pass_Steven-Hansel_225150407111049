@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import NavigationBar from "../components/NavigationBar";
-import Footer from "../components/Footer";
-
 
 const AllRecipes = () => {
     const [items, setItems] = useState([]);

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import NavigationBar from "../components/NavigationBar";
-import Footer from "../components/Footer";
 
 
 const AllRecipes = () => {
@@ -86,7 +85,7 @@ const AllRecipes = () => {
                     )}
                 </div>
             </div>
-            {!loading && <Footer />}
+            
             {showPopup && (
                 <div className="popup-background" onClick={() => setShowPopup(false)}>
                     <div className="popup-content pop-in">
